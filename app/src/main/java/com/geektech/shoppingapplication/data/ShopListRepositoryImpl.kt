@@ -15,6 +15,8 @@ class ShopListRepositoryImpl : ShopListRepository {
         shopList.add(shopItem)
     }
 
+
+
     override fun deleteShopItem(shopItem: ShopItem) {
         shopList.remove(shopItem)
     }
